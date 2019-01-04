@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>mosamircs</title>
+</head>
+<body>
+    <script>
+        //day-1 in javascript;
+        //js comment in-line;
+        var number =5; //this how to declare a varible in js and sets it to 5;
+
+        /*
+        * this a multiple line comment;
+        * */
+        console.log("Hello world mosamircs");// allows you to see things in the console of the browser
+        number=9;//this updates the value in variable number to 9;
+
+        /*
+        * Data types and Variables in js
+        * 7 different data types:
+        * undefined , null, boolean ,string , symbol,number , object1
+        * */
+        alert(number);//showing alert in website
+
+        //3 ways to declare a variable in js
+        var var1=10;//first way
+        var1="mosamircs";//updating the value of variable by another data type
+
+        let var2="Mohamed Samir";//second way
+
+        const pi =3.14;//third way
+        /**the difference between the (var , let  and const)
+         * var can be declared and used in the hole of program
+         * let can be used only in the scope
+         *const is the variable that can't be changed at the hole program
+         * */
+
+        //storing values with assign operator
+        var a;//this declaring variable
+        var b= 10; //assigning variable the (=)is called here assigment operator
+        //we have to end all lines in javascript with semi-colon ;
+        a=b;//this line assigns the value in variable b to be in a
+        console.log(a);//10
+        console.log(b);//copy of a=10
+        console.log(var1);//mosamircs
+        console.log(var2);//Mohamed
+        console.log(pi);//3.14
+
+        //working on initializing variables and do some operations on it
+        var x=5;
+        var y=10;
+        var z="I'm ";
+
+        //doing some operations on these variables
+        x=x+1;
+        y=y+5;
+        z=z+"mosamircs";
+        console.log(x,y,z);
+
+        //case sensitivity in variable
+        //this two variables are different completely
+        var Mosamircs=5;
+        var mosamircs=6;
+
+        //math operation
+        var add=x+y;
+        console.log(add);//11
+        var sub = x-y;//-4
+        console.log(sub);
+        var mul=x*y;//5
+        console.log(mul);
+        var div=x/y;//(1/5)=>0.2
+        console.log(div);
+
+        //before inc
+        console.log(x);
+        //increment number
+        x++;
+        console.log(x);//after inc
+
+        console.log(y);//before dec
+        //decrement number
+        y--;
+        console.log(y);//after dec
+
+        //decimal numbers
+        var dec1=0.2562;
+        var dec2=0.26;
+        //math operation on deciaml
+        var add_d=dec1+dec2;
+        console.log(add_d);//11
+        var sub_d = dec1-dec2;//-4
+        console.log(sub_d);
+        var mul_d=dec1*dec2;//5
+        console.log(mul_d);
+        var quotient=dec1/dec2;//(1/5)=>0.2
+        console.log(quotient);
+
+        //Remainder of division
+        var remainder =11%3;//2
+        console.log(remainder);
+
+        //compound assigment with augmented addition
+        a+=12;//this is equals (a=a+12)
+        console.log(a);
+        b-=5;//this is equals (b=b-5)
+        console.log(b);
+        dec1*=15;//this equals (dec1=dec1*15);
+        console.log(dec1);
+        dec2/=10;//this equals (dec2=dec2/10);
+        console.log(dec2);
+
+        //declare string variables
+        var firstName="Mohamed";
+        var lastName="Samir";
+
+        //escaping literal quotes in strings
+        var doubleQuoted ="i'm a\"double quotes\" inside \"double quotes text\""
+        console.log(doubleQuoted);
+
+        //quoting strings with single quotes instead of escape char
+        var link='<a href="www.google.com" target="_blank">Google</a>';
+        console.log(link);
+
+        //escape sequences in string
+        /*code => output
+        * \' => single quote
+        * \" => double quote
+        * \\ => backslash
+        * \n  => new line
+        * \r =>carriage return
+        * \t => tab
+        * \b => backspace
+        *  \f => form feed
+        * */
+
+        //end of day 1 with js
+        //video from free code camp on youtube
+        //https://www.youtube.com/watch?v=PkZNo7MFNFg&t=463s&pbjreload=10
+    </script>
+</body>
+</html>
